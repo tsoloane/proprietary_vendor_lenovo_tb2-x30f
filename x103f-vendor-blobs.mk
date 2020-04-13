@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/app,system/app)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/tb2x30f/proprietary/app,system/app)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/bin,system/bin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/tb2x30f/proprietary/bin,system/bin)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/tb2x30f/proprietary/etc,system/etc)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/lib,system/lib)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/tb2x30f/proprietary/lib,system/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/usr,system/usr)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/tb2x30f/proprietary/usr,system/usr)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/vendor,system/vendor)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/tb2x30f/proprietary/vendor,system/vendor)
