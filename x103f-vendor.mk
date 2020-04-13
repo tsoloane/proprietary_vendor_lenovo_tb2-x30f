@@ -13,9 +13,9 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS += vendor/lenovo/x103f/overlay
+DEVICE_PACKAGE_OVERLAYS += vendor/lenovo/tb2x30f/overlay
 
 PRODUCT_PACKAGES += \
     TimeService
 
-$(call inherit-product, vendor/lenovo/x103f/x103f-vendor-blobs.mk)
+$(call inherit-product, vendor/lenovo/tb2x30f/tb2x30f-vendor-blobs.mk)
